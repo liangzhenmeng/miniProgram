@@ -1,0 +1,19 @@
+<!-- view的基本使用 -->
+<view class="box box1"
+      hover-class="hover-box1"
+      hover-stay-time="{{10}}"
+      hover-start-time="{{100}}"
+>
+  我是box1
+</view>
+<!-- hover-stop-propagation:阻止冒泡 -->
+<view class="box box2"
+      hover-class="hover-box2"
+>
+  <view class="box2-item"
+        hover-class="hover-box2-item"
+        hover-stop-propagation
+  >
+    <text>我是box2-子box</text>
+  </view>
+</view>

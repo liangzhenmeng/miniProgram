@@ -1,0 +1,47 @@
+<!--pages/home/home.wxml-->
+<text>pages/home/home.wxml</text>
+<button bindtap="changeHandle">改变message</button>
+<view class="title">
+  <view bindtap="msgTapHandle">{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view>{{ message }}</view>
+  <view wx:for="{{ list }}">{{item.username}}</view>
+</view>

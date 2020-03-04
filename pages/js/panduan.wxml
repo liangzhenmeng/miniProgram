@@ -1,0 +1,22 @@
+<!--pages/js/panduan.wxml-->
+<text>pages/js/panduan.wxml  --分数 ：{{score}}</text>
+<!-- if判断语句 -->
+<view>
+	<button size="mini" bindtap="handleIncrement">分数递增6</button>
+	<button size="large" bindtap="handleDecrement">分数递减</button>
+	<text wx:if="{{ score > 90 }}">优秀</text>
+	<text wx:elif="{{ score >=80 }}">良好</text>
+	<text wx:elif="{{ score >= 60 }}">及格</text>
+	<text wx:else>不及格</text>
+</view>
+
+<view hidden="{{score<60}}">
+  恭喜您成功通过考核
+</view>
+<view wx:if="{{score>60}}">
+  通过if判断显示隐藏
+</view>
+
+<view wx:for='{{["abc","bac","cba"]}}' wx:key="{{item}}" class="{{item + '-' + index}}">
+  {{item}} -- {{ index }}
+</view>

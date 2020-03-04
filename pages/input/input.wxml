@@ -1,0 +1,18 @@
+
+<input placeholder="请输入"/>
+<input value="{{name}}"
+       bindinput="ipthandle"
+       bindfocus="handleFocus"
+       bindblur="handleblur"
+/>
+
+<input placeholder="请输入密码"
+       password
+/>
+
+<input type="number"
+       placeholder="数字"
+/>
+<input type="card"
+       placeholder="card"
+/>

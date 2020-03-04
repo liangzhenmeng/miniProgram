@@ -1,0 +1,32 @@
+/* pages/view/view.wxss */
+.box{
+  height:100;
+  line-height: 100px;
+  text-align:center;
+}
+.box1{
+  background-color: aqua;
+  color:red
+}
+.hover-box1{
+  background-color: red;
+  color:blue
+}
+.box2{
+  background-color: blue;
+  color:red
+}
+.hover-box2{
+  background-color: green;
+  color:blue
+}
+.box2-item{
+  width:50%;
+  margin:auto;
+  background-color: bisque;
+  color: black;
+}
+.hover-box2-item{
+  background-color: blueviolet;
+  color:green;
+}
