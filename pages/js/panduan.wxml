@@ -17,6 +17,6 @@
   通过if判断显示隐藏
 </view>
 
-<view wx:for='{{["abc","bac","cba"]}}' wx:key="{{item}}" class="{{item + '-' + index}}">
+<view wx:for='{{["abc","bac","cba"]}}' wx:key="index" class="{{item + '-' + index}}">
   {{item}} -- {{ index }}
 </view>
